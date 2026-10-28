@@ -1,0 +1,23 @@
+{
+  "name": "ilias-delos-dualhoch3",
+  "version": "1.0.0",
+  "description": "DualHoch3: Custom ILIAS skin/style",
+  "homepage": "https://github.com/DennisSchulmeister/ilias-delos-dualhoch3#readme",
+  "bugs": {
+    "url": "https://github.com/DennisSchulmeister/ilias-delos-dualhoch3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisSchulmeister/ilias-delos-dualhoch3.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Dennis Schulmeister-Zimolong <dhbw@windows3.de>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd delos && sass delos.scss delos.css"
+  },
+  "devDependencies": {
+    "sass": "^1.100.0"
+  }
+}

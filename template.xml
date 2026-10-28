@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <template xmlns = "http://www.w3.org" version = "$Id$" name = "ILIAS">
-	<style 	name = "SkinRepoDelos"
+	<style 	name = "DualHoch3: Custom Delos Style"
 			id = "delos"
 			image_directory = "images"/>
 </template>
