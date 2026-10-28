@@ -1,0 +1,96 @@
+@use "../010-settings/" as *;
+
+// =============================================================================
+// Font-weight 700: Extra Bold
+// =============================================================================
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-Black.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-Black.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-BlackItalic.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-BlackItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+}
+// =============================================================================
+// Font-weight 700: Bold
+// =============================================================================
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-Bold.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-BoldItalic.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+
+// =============================================================================
+// Font-weight 400: Regular
+// =============================================================================
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-Regular.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-Italic.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+
+// =============================================================================
+// Font-weight 300: Light
+// =============================================================================
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-Light.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-LightItalic.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+
+// =============================================================================
+// Font-weight 200: Thin
+// =============================================================================
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-Thin.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-Thin.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src:	url('#{$il-web-font-path}Lato/Lato-ThinItalic.woff2') format('woff2'),
+			url('#{$il-web-font-path}Lato/Lato-ThinItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+}
+
